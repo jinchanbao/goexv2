@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/nntaoli-project/goex/v2/options"
-	"github.com/nntaoli-project/goex/v2/util"
+	"github.com/onebitorg/goex/v2/options"
+	"github.com/onebitorg/goex/v2/util"
 )
 
 func DoSignParam(httpMethod, reqUrl string, apiOpt options.ApiOptions) *url.Values {

@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"net/url"
 
-	. "github.com/nntaoli-project/goex/v2/httpcli"
-	"github.com/nntaoli-project/goex/v2/logger"
-	. "github.com/nntaoli-project/goex/v2/model"
-	. "github.com/nntaoli-project/goex/v2/util"
+	. "github.com/onebitorg/goex/v2/httpcli"
+	"github.com/onebitorg/goex/v2/logger"
+	. "github.com/onebitorg/goex/v2/model"
+	. "github.com/onebitorg/goex/v2/util"
 )
 
 func (f *USDTSwap) GetName() string {

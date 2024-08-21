@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/google/uuid"
-	"github.com/nntaoli-project/goex/v2/model"
+	"github.com/onebitorg/goex/v2/model"
 	"github.com/spf13/cast"
 )
 

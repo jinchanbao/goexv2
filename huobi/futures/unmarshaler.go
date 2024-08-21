@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/buger/jsonparser"
-	. "github.com/nntaoli-project/goex/v2/model"
+	. "github.com/onebitorg/goex/v2/model"
 	"github.com/spf13/cast"
 )
 

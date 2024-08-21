@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/nntaoli-project/goex/v2/model"
-	"github.com/nntaoli-project/goex/v2/okx/common"
-	"github.com/nntaoli-project/goex/v2/options"
-	"github.com/nntaoli-project/goex/v2/util"
+	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/v2/okx/common"
+	"github.com/onebitorg/goex/v2/options"
+	"github.com/onebitorg/goex/v2/util"
 )
 
 type PrvApi struct {
