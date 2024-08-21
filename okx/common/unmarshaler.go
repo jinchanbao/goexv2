@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"time"
+
 	"github.com/buger/jsonparser"
 	"github.com/nntaoli-project/goex/v2/logger"
 	. "github.com/nntaoli-project/goex/v2/model"
 	"github.com/spf13/cast"
-	"time"
 )
 
 type RespUnmarshaler struct {

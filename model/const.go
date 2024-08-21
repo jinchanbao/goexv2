@@ -36,8 +36,8 @@ const (
 	OrderType_opponent OrderType = "opponent"
 )
 
-//coin const list
-//a-z排序
+// coin const list
+// a-z排序
 const (
 	ADA  = "ADA"
 	ATOM = "ATOM"
@@ -137,7 +137,7 @@ const (
 	ZYRO = "ZYRO"
 )
 
-//exchange name const list
+// exchange name const list
 const (
 	OKX     = "okx.com"
 	BINANCE = "binance.com"

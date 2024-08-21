@@ -2,6 +2,7 @@ package spot
 
 import (
 	"errors"
+
 	"github.com/nntaoli-project/goex/v2/model"
 )
 

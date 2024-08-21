@@ -9,6 +9,7 @@ type UriOptions struct {
 	GetPendingOrdersUri      string
 	GetHistoryOrdersUri      string
 	CancelOrderUri           string
+	AmendOrderUri            string
 	NewOrderUri              string
 	GetAccountUri            string
 	GetPositionsUri          string

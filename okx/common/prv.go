@@ -3,15 +3,16 @@ package common
 import (
 	"errors"
 	"fmt"
+	"net/http"
+	"net/url"
+	"strings"
+	"time"
+
 	"github.com/nntaoli-project/goex/v2/httpcli"
 	"github.com/nntaoli-project/goex/v2/logger"
 	"github.com/nntaoli-project/goex/v2/model"
 	"github.com/nntaoli-project/goex/v2/options"
 	"github.com/nntaoli-project/goex/v2/util"
-	"net/http"
-	"net/url"
-	"strings"
-	"time"
 )
 
 type Prv struct {
@@ -136,7 +137,22 @@ func (prv *Prv) CancelOrder(pair model.CurrencyPair, id string, opt ...model.Opt
 	util.MergeOptionParams(&params, opt...)
 
 	data, responseBody, err := prv.DoAuthRequest(http.MethodPost, reqUrl, &params, nil)
-	if data != nil && len(data) > 0 {
+	if len(data) > 0 {
+		return responseBody, prv.UnmarshalOpts.CancelOrderResponseUnmarshaler(data)
+	}
+
+	return responseBody, err
+}
+
+func (prv *Prv) AmendOrder(pair model.CurrencyPair, id string, opt ...model.OptionParameter) ([]byte, error) {
+	reqUrl := fmt.Sprintf("%s%s", prv.UriOpts.Endpoint, prv.UriOpts.CancelOrderUri)
+	params := url.Values{}
+	params.Set("instId", pair.Symbol)
+	params.Set("ordId", id)
+	util.MergeOptionParams(&params, opt...)
+
+	data, responseBody, err := prv.DoAuthRequest(http.MethodPost, reqUrl, &params, nil)
+	if len(data) > 0 {
 		return responseBody, prv.UnmarshalOpts.CancelOrderResponseUnmarshaler(data)
 	}
 

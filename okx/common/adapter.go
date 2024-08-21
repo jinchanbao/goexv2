@@ -1,8 +1,9 @@
 package common
 
 import (
-	"github.com/nntaoli-project/goex/v2/model"
 	"net/url"
+
+	"github.com/nntaoli-project/goex/v2/model"
 )
 
 func AdaptKlinePeriodToSymbol(period model.KlinePeriod) string {

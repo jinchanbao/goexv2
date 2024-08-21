@@ -2,6 +2,7 @@ package common
 
 import (
 	"encoding/json"
+
 	. "github.com/nntaoli-project/goex/v2/options"
 )
 
@@ -37,6 +38,7 @@ func New() *OKxV5 {
 			GetHistoryOrdersUri:      "/api/v5/trade/orders-history",
 			GetPendingOrdersUri:      "/api/v5/trade/orders-pending",
 			CancelOrderUri:           "/api/v5/trade/cancel-order",
+			AmendOrderUri:            "/api/v5/trade/amend-order",
 			GetAccountUri:            "/api/v5/account/balance",
 			GetPositionsUri:          "/api/v5/account/positions",
 			GetExchangeInfoUri:       "/api/v5/public/instruments",

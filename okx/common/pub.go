@@ -2,12 +2,13 @@ package common
 
 import (
 	"fmt"
+	"net/http"
+	"net/url"
+
 	. "github.com/nntaoli-project/goex/v2/httpcli"
 	"github.com/nntaoli-project/goex/v2/logger"
 	. "github.com/nntaoli-project/goex/v2/model"
 	. "github.com/nntaoli-project/goex/v2/util"
-	"net/http"
-	"net/url"
 )
 
 func (okx *OKxV5) GetName() string {
