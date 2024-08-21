@@ -3,6 +3,7 @@ package futures
 import (
 	"encoding/json"
 	"errors"
+
 	"github.com/buger/jsonparser"
 	. "github.com/nntaoli-project/goex/v2/model"
 	"github.com/spf13/cast"

@@ -2,9 +2,10 @@ package logger
 
 import (
 	"fmt"
-	"github.com/nntaoli/go-tools/logger"
 	"io"
 	"os"
+
+	"github.com/nntaoli/go-tools/logger"
 )
 
 type LogLevel int

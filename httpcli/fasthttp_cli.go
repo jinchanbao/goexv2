@@ -2,10 +2,11 @@ package httpcli
 
 import (
 	"errors"
+	"time"
+
 	"github.com/nntaoli-project/goex/v2/logger"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpproxy"
-	"time"
 )
 
 type FastHttpCli struct {
