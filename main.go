@@ -3,11 +3,11 @@ package goex
 import (
 	"reflect"
 
-	"github.com/onebitorg/goex/v2/binance"
-	"github.com/onebitorg/goex/v2/httpcli"
-	"github.com/onebitorg/goex/v2/huobi"
-	"github.com/onebitorg/goex/v2/logger"
-	"github.com/onebitorg/goex/v2/okx"
+	"github.com/onebitorg/goex/binance"
+	"github.com/onebitorg/goex/httpcli"
+	"github.com/onebitorg/goex/huobi"
+	"github.com/onebitorg/goex/logger"
+	"github.com/onebitorg/goex/okx"
 )
 
 var (

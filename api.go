@@ -1,7 +1,7 @@
 package goex
 
 import (
-	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/model"
 )
 
 // IPubRest is a public interface that does not require authorization."

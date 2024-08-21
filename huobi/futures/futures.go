@@ -1,7 +1,7 @@
 package futures
 
 import (
-	. "github.com/onebitorg/goex/v2/options"
+	. "github.com/onebitorg/goex/options"
 )
 
 type Futures struct {

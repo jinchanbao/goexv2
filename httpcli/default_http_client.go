@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/onebitorg/goex/v2/logger"
+	"github.com/onebitorg/goex/logger"
 )
 
 var Cli IHttpClient

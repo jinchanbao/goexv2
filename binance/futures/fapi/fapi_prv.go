@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/onebitorg/goex/v2/binance/common"
-	"github.com/onebitorg/goex/v2/httpcli"
-	"github.com/onebitorg/goex/v2/logger"
-	. "github.com/onebitorg/goex/v2/model"
-	"github.com/onebitorg/goex/v2/options"
-	"github.com/onebitorg/goex/v2/util"
+	"github.com/onebitorg/goex/binance/common"
+	"github.com/onebitorg/goex/httpcli"
+	"github.com/onebitorg/goex/logger"
+	. "github.com/onebitorg/goex/model"
+	"github.com/onebitorg/goex/options"
+	"github.com/onebitorg/goex/util"
 )
 
 type Prv struct {

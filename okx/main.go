@@ -1,8 +1,8 @@
 package okx
 
 import (
-	"github.com/onebitorg/goex/v2/okx/futures"
-	"github.com/onebitorg/goex/v2/okx/spot"
+	"github.com/onebitorg/goex/okx/futures"
+	"github.com/onebitorg/goex/okx/spot"
 )
 
 type OKx struct {

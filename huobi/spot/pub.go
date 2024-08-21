@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	. "github.com/onebitorg/goex/v2/httpcli"
-	. "github.com/onebitorg/goex/v2/model"
+	. "github.com/onebitorg/goex/httpcli"
+	. "github.com/onebitorg/goex/model"
 )
 
 func (s *Spot) GetName() string {

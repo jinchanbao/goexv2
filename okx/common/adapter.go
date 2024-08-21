@@ -3,7 +3,7 @@ package common
 import (
 	"net/url"
 
-	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/model"
 )
 
 func AdaptKlinePeriodToSymbol(period model.KlinePeriod) string {

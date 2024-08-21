@@ -1,8 +1,8 @@
 package spot
 
 import (
-	"github.com/onebitorg/goex/v2/logger"
-	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/logger"
+	"github.com/onebitorg/goex/model"
 )
 
 func adaptKlinePeriod(period model.KlinePeriod) string {

@@ -3,7 +3,7 @@ package futures
 import (
 	"errors"
 
-	. "github.com/onebitorg/goex/v2/model"
+	. "github.com/onebitorg/goex/model"
 )
 
 type CrossPrvApi struct {

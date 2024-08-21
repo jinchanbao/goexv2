@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/onebitorg/goex/v2/logger"
+	"github.com/onebitorg/goex/logger"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpproxy"
 )
@@ -17,7 +17,7 @@ type FastHttpCli struct {
 
 func NewFastHttpCli() *FastHttpCli {
 	cli := &fasthttp.Client{
-		Name:                "github.com/onebitorg/goex/v2/",
+		Name:                "github.com/onebitorg/goex/",
 		MaxConnsPerHost:     512,
 		MaxIdleConnDuration: 20 * time.Second,
 		ReadTimeout:         10 * time.Second,

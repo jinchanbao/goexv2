@@ -3,7 +3,7 @@ package spot
 import (
 	"errors"
 
-	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/model"
 )
 
 func (s *Spot) GetExchangeInfo() (map[string]model.CurrencyPair, []byte, error) {

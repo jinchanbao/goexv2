@@ -14,9 +14,9 @@ package main
 
 import (
 	goexv2 "github.com/onebitorg/goex/v2"
-	"github.com/onebitorg/goex/v2/logger"
-	"github.com/onebitorg/goex/v2/model"
-	"github.com/onebitorg/goex/v2/options"
+	"github.com/onebitorg/goex/logger"
+	"github.com/onebitorg/goex/model"
+	"github.com/onebitorg/goex/options"
 	"log"
 )
 

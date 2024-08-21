@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/buger/jsonparser"
-	"github.com/onebitorg/goex/v2/binance/common"
-	"github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/binance/common"
+	"github.com/onebitorg/goex/model"
 	"github.com/spf13/cast"
 )
 

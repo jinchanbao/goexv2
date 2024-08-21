@@ -1,4 +1,4 @@
-module github.com/onebitorg/goex/v2
+module github.com/onebitorg/goex
 
 go 1.18
 

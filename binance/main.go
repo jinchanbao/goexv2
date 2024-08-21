@@ -1,8 +1,8 @@
 package binance
 
 import (
-	"github.com/onebitorg/goex/v2/binance/futures/fapi"
-	"github.com/onebitorg/goex/v2/binance/spot"
+	"github.com/onebitorg/goex/binance/futures/fapi"
+	"github.com/onebitorg/goex/binance/spot"
 )
 
 type Binance struct {

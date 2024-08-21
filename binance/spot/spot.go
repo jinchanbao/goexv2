@@ -1,8 +1,8 @@
 package spot
 
 import (
-	. "github.com/onebitorg/goex/v2/model"
-	. "github.com/onebitorg/goex/v2/options"
+	. "github.com/onebitorg/goex/model"
+	. "github.com/onebitorg/goex/options"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/onebitorg/goex/v2/util"
+	"github.com/onebitorg/goex/util"
 )
 
 func SignParams(params *url.Values, secret string) {

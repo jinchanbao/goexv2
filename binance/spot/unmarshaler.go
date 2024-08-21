@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/buger/jsonparser"
-	"github.com/onebitorg/goex/v2/logger"
-	. "github.com/onebitorg/goex/v2/model"
+	"github.com/onebitorg/goex/logger"
+	. "github.com/onebitorg/goex/model"
 	"github.com/spf13/cast"
 )
 
